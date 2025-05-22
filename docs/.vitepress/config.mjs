@@ -2,9 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
+  base: '/Static-Markdown-documents/',
   title: "一个网站",
   description: "一个 VitePress 网站",
-  head: [['link', { rel: 'icon', href: '/public/icon.ico' }]],//设置网站图标
+  head: [['link', { rel: 'icon', href: '/Static-Markdown-documents/icon.ico' }]],//设置网站图标
   themeConfig: {
     // https://vitepress.dev/zh/reference/default-theme-config
 

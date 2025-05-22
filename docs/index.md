@@ -7,7 +7,7 @@ hero:
   text: "和标题一样大的标语"
   tagline: 这是一串标语III
   image:
-    src: /public/doro.png
+    src: /doro.png
     alt: 背景图
   actions:
     - theme: brand
