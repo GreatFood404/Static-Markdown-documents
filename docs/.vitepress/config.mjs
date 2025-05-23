@@ -48,8 +48,13 @@ export default defineConfig({
       {
         text: '链接',
           items: [
-            { text: "百度" , link: "https://www.baidu.com"},
-            { text: "谷歌" , link: "https://www.google.com"},
+            {
+              text:"搜索引擎",
+              items: [
+                { text: "百度" , link: "https://www.baidu.com", target: '_self', rel: 'sponsored'},
+                { text: "谷歌" , link: "https://www.google.com", target: '_self', rel: 'sponsored'},
+              ]
+            }
           ]
       }
     ],
@@ -85,8 +90,8 @@ export default defineConfig({
 
     //  社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/GreatFood404/Static-Markdown-documents', target: '_self'},
-      { icon: "bilibili", link: "https://space.bilibili.com/392396699", target: "_self"}
+      { icon: 'github', link: 'https://github.com/GreatFood404/Static-Markdown-documents'},
+      { icon: "bilibili", link: "https://space.bilibili.com/392396699"}
     ]
   }
 })
