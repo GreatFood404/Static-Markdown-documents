@@ -5,9 +5,15 @@ export default defineConfig({
   // base: '/Static-Markdown-documents/',
   title: "一个网站",
   description: "一个 VitePress 网站",
-  head: [['link', { rel: 'icon', href: '/icon.ico' }]],//设置网站图标
+  //设置网站logo
+  head: [['link', { rel: 'icon', href: '/icon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/zh/reference/default-theme-config
+    //设置网站图标
+    logo: '/icon.ico',
+
+    //设置网站标题
+    siteTitle: "一个小网站",
 
     // 设置目录的样式
     outlineTitle: "文章目录",
@@ -34,6 +40,7 @@ export default defineConfig({
       },
     },
 
+    // 导航栏
     nav: [
       { text: '主页', link: '/' },
       { text: '文档', link: '/documents' },
@@ -47,6 +54,7 @@ export default defineConfig({
       }
     ],
 
+    // 侧边栏渲染
     sidebar:{
       '/documents/':[{
         text: '文档',
@@ -63,9 +71,22 @@ export default defineConfig({
       }]
     },
 
+    //  上一页下一页
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
 
+    //  编辑链接
+    editLink: {
+      pattern: "https://github.com/GreatFood404/Static-Markdown-documents/tree/main/docs/:path",
+      text:  "在 GitHub 上编辑此页",
+    },
+
+    //  社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/GreatFood404/Static-Markdown-documents' }
+      { icon: 'github', link: 'https://github.com/GreatFood404/Static-Markdown-documents', target: '_self'},
+      { icon: "bilibili", link: "https://space.bilibili.com/392396699", target: "_self"}
     ]
   }
 })
