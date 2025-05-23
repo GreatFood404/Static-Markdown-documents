@@ -6,10 +6,17 @@ hero:
   name: "很大的标题"
   text: "和标题一样大的标语"
   tagline: 这是一串标语III
+  
   image:
-    src: /doro.png
-    alt: 背景图
-  actions:
+      src: /doro-2.gif
+      alt: 背景图
+      #css
+      style:
+        max-width: 300px
+        max-height: 300px
+        border-radius: 50%
+        
+actions:
     - theme: brand
       text: 百度一下
       link: https://www.baidu.com
