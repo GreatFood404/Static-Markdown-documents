@@ -13,7 +13,7 @@ export default defineConfig({
     logo: '/icon.ico',
 
     //设置网站标题
-    siteTitle: "一个小网站",
+    siteTitle: "doro",
 
     // 设置目录的样式
     outlineTitle: "文章目录",
@@ -90,8 +90,8 @@ export default defineConfig({
 
     //  社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/GreatFood404/Static-Markdown-documents'},
-      { icon: "bilibili", link: "https://space.bilibili.com/392396699"}
+      { icon: 'github', link: 'https://github.com/'},
+      { icon: "bilibili", link: "https://space.bilibili.com/"}
     ]
   }
 })
