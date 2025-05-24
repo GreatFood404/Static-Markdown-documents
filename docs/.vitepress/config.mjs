@@ -64,7 +64,7 @@ export default defineConfig({
       '/documents/':[{
         text: '文档',
         items: [
-          {text: "文档的测试文档", link: "/documents/test" },
+          {text: "前端学习建议", link: "/documents/front-end_learning_recommendations" },
           {text: "测试文档index", link: "/documents/index"}
         ]
       }],
