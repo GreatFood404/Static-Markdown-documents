@@ -44,7 +44,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '文档', link: '/documents' },
-      { text: 'CM2' , link: '/cm2'},
+      { text: '杂七杂八' , link: '/cm2'},
       {
         text: '链接',
           items: [
@@ -69,7 +69,7 @@ export default defineConfig({
         ]
       }],
       '/cm2/':[{
-        text: 'CM2',
+        text: '杂七杂八',
         items: [
           {text: "cm2测试文档index", link: "/cm2/index" },
         ]
