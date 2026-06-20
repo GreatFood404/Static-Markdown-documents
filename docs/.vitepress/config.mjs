@@ -64,14 +64,14 @@ export default defineConfig({
       '/documents/':[{
         text: '文档',
         items: [
-          {text: "前端学习建议", link: "/documents/front-end_learning_recommendations" },
-          {text: "测试文档index", link: "/documents/index"}
+          {text: "测试文档index", link: "/documents/index"},
         ]
       }],
       '/cm2/':[{
         text: '杂七杂八',
         items: [
-          {text: "cm2测试文档index", link: "/cm2/index" },
+          {text: "厨刀选择", link: "/cm2/Kitchenknifeselection" },
+          {text: "前端学习建议", link: "/cm2/front-end_learning_recommendations" }
         ]
       }]
     },
